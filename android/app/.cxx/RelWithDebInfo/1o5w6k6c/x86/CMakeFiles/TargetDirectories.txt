@@ -1,0 +1,2 @@
+/home/mk/Desktop/Romas/Projets Flutter/expense_manager/android/app/.cxx/RelWithDebInfo/1o5w6k6c/x86/CMakeFiles/edit_cache.dir
+/home/mk/Desktop/Romas/Projets Flutter/expense_manager/android/app/.cxx/RelWithDebInfo/1o5w6k6c/x86/CMakeFiles/rebuild_cache.dir

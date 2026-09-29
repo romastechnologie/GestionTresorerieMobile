@@ -1,0 +1,62 @@
+name: expense_manager
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  dio: ^5.8.0+1 # pour les requêtes http
+  flutter_secure_storage: ^9.2.4 # pour stocker le token de façon sécurisé
+  
+  intl: # pour la gestion des dates
+  #flutter_localization: ^0.3.2 # pour mettre la date en fr
+  
+  image_picker: ^1.1.2 # pour l'insertion d'images dans le cadre de la fourniture de justificatifs de dépenses
+  
+  get: ^4.7.2 # pour le modele MVC
+
+  animated_bottom_navigation_bar: ^1.4.0 # pour une barre de navigation stylisée
+  
+  #flutter_localizations: #Pour les localisations
+  url_launcher: ^6.1.7
+  fl_chart:
+  cupertino_icons: ^1.0.8
+
+flutter_icons:
+  android: true
+  image_path: "assets/images/somimas.jpg" # Chemin vers votre icône
+  adaptive_icon_background: "#FFFFFF" # Couleur de fond (Android)
+  adaptive_icon_foreground: "assets/images/somimas.jpg" # Icône adaptative
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/count.png
+    - assets/images/somimas.jpg
+    - assets/images/logo_somimas.png
+    - assets/images/epargne.jpeg
+
+  fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-VariableFont_opsz,wght.ttf
+        - asset: assets/fonts/Inter-Italic-VariableFont_opsz,wght.ttf
+          

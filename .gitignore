@@ -1,0 +1,9 @@
+.dart_tool/
+build/
+android/.gradle/
+android/app/debug/
+android/app/release/
+*.apk
+*.aab
+*.so
+.idea/
